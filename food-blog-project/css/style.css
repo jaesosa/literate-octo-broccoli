@@ -1,0 +1,168 @@
+body {
+  display: block;
+  font-family: var(--brand-font-family);
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  img {
+    display: none;
+  }
+
+  p {
+    text-align: center;
+  }
+}
+
+:root {
+  --background-color: #e3e1de;
+  --primary-font-color: #315f95;
+  --secondary-color: #f5f2fe;
+  --brand-font-family: "Cardo", serif;
+  --secondary-font-family: "Cormorant Garamond", serif;
+}
+
+h1 {
+  background-color: var(--background-color);
+  color: var(--primary-font-color);
+  font-family: var(--brand-font-family);
+  font-size: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--brand-font-family);
+  font-size: 20px;
+}
+
+h3 {
+  font-family: var(--brand-font-family);
+}
+
+p {
+  padding: 20px 10px;
+  font-family: var(--brand-font-family);
+  font-size: 16px;
+  line-height: 1.5;
+  opacity: 0.8;
+  text-align: center;
+}
+
+img {
+  max-width: 500px;
+  padding: 20px;
+}
+
+ul {
+  font-family: var(--brand-font-family);
+  font-size: 18px;
+  line-height: 2;
+  list-style-type: square;
+  text-align: left;
+}
+
+ol {
+  font-family: var(--brand-font-family);
+  font-size: 18px;
+  margin-left: 15px;
+  text-align: left;
+}
+
+footer {
+  font-family: var(--brand-font-family);
+  text-align: center;
+  margin: 20px;
+}
+
+.subheading {
+  background-color: var(--background-color);
+  color: var(--primary-font-color);
+  font-family: var(--secondary-font-family);
+  font-size: 40px;
+  text-align: center;
+}
+
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.navigation-links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.primary-link {
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  background: var(--primary-font-color);
+  color: white;
+}
+
+.cake-recipe {
+  font-size: 15px;
+  margin: 25px;
+  padding: 15px auto;
+}
+
+.pasta {
+  font-size: 14px;
+  margin: 25px;
+  padding: 15px auto;
+}
+
+.macaron {
+  font-size: 15px;
+  margin: 25px;
+  padding: 15px auto;
+}
+
+.my-story-container {
+  font-size: 14px;
+  padding: 10px;
+  margin: 20px;
+  opacity: 0.8;
+}
+
+.blog-cake {
+  max-width: 350px;
+}
+
+.pasta-img {
+  max-width: 370px;
+}
+
+.contact-details {
+  font-family: var(--brand-font-family);
+  font-size: 30px;
+  margin: 50px;
+  opacity: 0.7;
+  text-align: center;
+}
+
+.email {
+  color: var(--primary-font-color);
+  font-size: 40px;
+  text-decoration: none;
+}
+
+.navbar-brand {
+  font-family: var(--brand-font-family) !important;
+}
+
+.navbar {
+  align-items: center;
+  margin: 0 auto;
+}
